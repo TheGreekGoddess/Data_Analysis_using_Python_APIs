@@ -13,7 +13,6 @@ But, if pressed, how would you **prove** it?
 In this example, you'll be creating a Python script to visualize the weather of 500+ cities across the world of varying distance from the equator. To accomplish this, you'll be utilizing a [simple Python library](https://pypi.python.org/pypi/citipy), the [OpenWeatherMap API](https://openweathermap.org/api), and a little common sense to create a representative model of weather across world cities.
 
 Your first objective is to build a series of scatter plots to showcase the following relationships:
-
 * Temperature (F) vs. Latitude
 * Humidity (%) vs. Latitude
 * Cloudiness (%) vs. Latitude
@@ -49,16 +48,10 @@ Now let's use your skills in working with weather data to plan future vacations.
 
 * Create a heat map that displays the humidity for every city from the part I of the homework.
 
-  ![heatmap](Images/heatmap.png)
-
 * Narrow down the DataFrame to find your ideal weather condition. For example:
-
   * A max temperature lower than 80 degrees but higher than 70.
-
   * Wind speed less than 10 mph.
-
   * Zero cloudiness.
-
   * Drop any rows that don't contain all three conditions. You want to be sure the weather is ideal.
 
   * **Note:** Feel free to adjust to your specifications but be sure to limit the number of rows returned by your API requests to a reasonable number.
@@ -67,10 +60,7 @@ Now let's use your skills in working with weather data to plan future vacations.
 
 * Plot the hotels on top of the humidity heatmap with each pin containing the **Hotel Name**, **City**, and **Country**.
 
-  ![hotel map](Images/hotel_map.png)
-
 As final considerations:
-
 * Create a new GitHub repository for this project called `API-Challenge` (note the kebab-case). **Do not add to an existing repo**
 * You must complete your analysis using a Jupyter notebook.
 * You must use the Matplotlib or Pandas plotting libraries.
