@@ -3,8 +3,7 @@
 ## Background
 
 Whether financial, political, or social -- data's true power lies in its ability to answer questions definitively. So let's take what you've learned about Python requests, APIs, and JSON traversals to answer a fundamental question: "What's the weather like as we approach the equator?"
-Now, we know what you may be thinking: "Duh. It gets hotter..."
-But, if pressed, how would you **prove** it?
+Now, we know what you may be thinking: "Duh. It gets hotter..." But, if pressed, how would you **prove** it?
 
 ## Part I - WeatherPy
 
@@ -52,6 +51,7 @@ Now let's use your skills in working with weather data to plan future vacations.
   
 * Using Google Places API to find the first hotel for each city located within 5000 meters of your coordinates.
 * Plot the hotels on top of the humidity heatmap with each pin containing the **Hotel Name**, **City**, and **Country**.
+* For max intensity in the heat map, try setting it to the highest humidity found in the data set.
 
 ## Hints and Considerations
 
